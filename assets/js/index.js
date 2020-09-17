@@ -15,7 +15,8 @@ $('#btnLogout').on('click',function(){
       layer.close(index)
     })
 })
-
+ 
+})
 
 // 获取用户的基本信息
   function getUserInfo() {
@@ -45,8 +46,7 @@ $('#btnLogout').on('click',function(){
       // }
     })
   }
-
-  // 渲染用户的头像
+   // 渲染用户的头像
 function renderAvatar(user) {
   // 1. 获取用户的名称
   var name = user.nickname || user.username
@@ -68,8 +68,3 @@ function renderAvatar(user) {
       .show()
   }
 }
- 
-
-
-
-})
